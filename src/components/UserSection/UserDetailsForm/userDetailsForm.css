@@ -1,0 +1,88 @@
+.form-container {
+    background-color: rgb(245, 245, 245);
+    padding: 1rem;
+    margin-top: 1rem;
+    height: auto;
+    border-radius: 0.2rem;
+}
+
+.form-divider {
+    background-color: rgb(0,174,239);
+    border: none;
+    height: 1px;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.form-button-container {
+    padding-top: 1rem;
+    text-align: right;
+}
+
+.form-button {
+    border: none;
+    background-color: rgb(49,151,87);
+    padding: 0.65rem 2.2rem;
+    border-radius: 0.2rem;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.form-header {
+    font-weight: normal;
+    font-size: 0.85rem;
+    margin: auto;
+}
+
+.step-button {
+    background-color: rgb(241, 241, 241);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204,204,204);
+    border-top-right-radius: 0.2rem;
+    border-top-left-radius: 0.2rem;
+    border-bottom-style: none;
+    margin-right: 0.5rem;
+    padding: 0.55rem 1.3rem 0.55rem 1.3rem;
+    font-size: 0.7rem;
+}
+
+.step-button-active {
+    background-color: rgb(193, 234, 250);
+    border-color: rgb(0,174,239);
+}
+
+.input-box {
+    background-color: rgb(241, 241, 241);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204,204,204);
+    border-radius: 0.2rem;
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+    margin: 0.5rem 0 1rem 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 769px) {
+    .form-divider {
+      margin-bottom: 1.5rem;
+    }
+
+    .input-box {
+      margin: 0.4rem 0;
+      margin-bottom: 0.8rem;
+    }
+
+    .form-container {
+      /*margin: top right bottom left */
+      margin: 0 0 0 0.7rem;
+      width: 50%;
+    }
+
+    .form-button-container {
+      padding-top: 0.9rem;
+    }
+}
+
+button:focus {outline:0;}
